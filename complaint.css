@@ -1,0 +1,113 @@
+
+/* HEADER/HERO AREA */
+.heading-section {
+    background-color: black;
+}
+
+.ways {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.image-of-text {
+
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.h1-img {
+    padding-right: 200px;
+    color: darkgreen;
+    padding-right: 40px;
+}
+
+h3 {
+    text-align: center;
+    padding-right: 60px;
+    color: darkgreen;
+}
+
+.learnmore-img {
+    width: 150px;
+    height: 150px;
+    padding-left: 70PX;
+}
+.complaint-box {
+    width: 60%;
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 80px;
+    box-shadow: 0px 0px 10px 1px rgb(165, 165, 165);
+    
+}
+
+.complaint-box p {
+    text-align: left;
+    font-size: 20px;
+    color: #777;
+}
+
+.complaint-form input, .comment-form textarea {
+    width: 89.2%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    border: 1px solid ;
+    color: #777;
+    
+}
+
+.comment {
+    width: 708px;
+}
+
+.comment-form button {
+    margin: 10px 0;
+    border: none;
+    background-color: #d0d0d0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: #444;
+
+}
+
+button:hover {
+    color: white;
+    background-color: #444;
+}
+
+@media(max-width: 900px) {
+    .complaint-box {
+        width: 80%;
+        margin: 5%;
+    }
+    .comment {
+        width: 80%;
+        margin: 5%;
+    }
+}
+
+footer {
+    height: 30vh;
+    background-color: #000000be;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer > a {
+    text-decoration: none;
+    margin: 40px;
+    font-family: sans-serif;
+    color: white;
+}
